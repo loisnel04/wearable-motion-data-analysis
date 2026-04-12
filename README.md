@@ -240,6 +240,49 @@ The data simulates accelerometer signals sampled at a fixed frequency.
 
 ---
 
+## Example Visualizations
+
+The pipeline generates several visualizations to help interpret wearable motion signals and derived movement features.
+
+### Raw Motion Signals
+
+Displays the original accelerometer signals (`x`, `y`, `z`) and the computed **magnitude** of the motion vector.
+
+![Raw Motion Signals](docs/raw_plot.png)
+
+---
+
+### Motion Dynamics
+
+Shows the first and second derivatives of the motion signal:
+- **velocity**
+- **acceleration**
+
+These metrics describe how movement evolves over time.
+
+![Motion Dynamics](docs/dynamics_plot.png)
+
+---
+
+### Sudden Motion Detection
+
+Displays the **jerk**, which represents the rate of change of acceleration and helps detect abrupt movements.
+
+![Jerk Plot](docs/jerk_plot.png)
+
+---
+
+### Activity Intensity
+
+Shows motion intensity features derived from the signal:
+
+- **signal power**
+- **signal energy**
+
+These metrics provide insight into the overall movement intensity.
+
+![Activity Intensity](docs/activity_plot.png)
+
 # Why This Project
 
 This project demonstrates how **wearable sensor data can be transformed into interpretable motion metrics** through a clean engineering pipeline.
