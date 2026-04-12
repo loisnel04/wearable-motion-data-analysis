@@ -38,3 +38,7 @@ wearable-motion-data-analysis/
 ├── app/
 │   └── main.py
 └── docs/
+
+## Example visualization
+
+![Motion metrics](docs/motion_plot.png)
