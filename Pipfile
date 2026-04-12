@@ -9,6 +9,7 @@ numpy = "*"
 plotly = "*"
 fastapi = "*"
 uvicorn = "*"
+python-multipart = "*"
 
 [dev-packages]
 
