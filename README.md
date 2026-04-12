@@ -260,7 +260,7 @@ Shows the first and second derivatives of the motion signal:
 
 These metrics describe how movement evolves over time.
 
-![Motion Dynamics](docs/dynamics_plot.png)
+![Motion Dynamics](docs/dynamic_plot.png)
 
 ---
 
