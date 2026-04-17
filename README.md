@@ -12,7 +12,14 @@ This repository is designed as a **clean R&D-style demo** showing how raw sensor
 
 ## Motion Data Processing Pipeline
 
-The pipeline processes accelerometer-like motion data with the following steps:
+The pipeline processes **3-axis accelerometer data** typically collected from wearable sensors such as smartwatches, fitness trackers, or inertial measurement units (IMUs).
+
+Each data sample contains:
+
+- `timestamp` – time of measurement  
+- `x`, `y`, `z` – acceleration along the three spatial axes  
+
+The pipeline then performs the following steps:
 
 1. Load motion sensor CSV data
 2. Clean and preprocess timestamps
